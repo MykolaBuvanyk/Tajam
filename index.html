@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="slider.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <title>Tajam</title>
 </head>
 <body>
@@ -227,7 +228,7 @@
       <h3>OUR WORKS</h3>
     </div>
     <div class="gallery">
-      <div class="gallery_one">
+      <div class="blogBox gallery_one">
         <img src="img\image_part_001.jpg" alt="">
         <img src="img\image_part_002.jpg" alt="">
         <img src="img\image_part_003.jpg" alt="">
@@ -235,7 +236,7 @@
         <img src="img\image_part_005.jpg" alt="">
         <img src="img\image_part_006.jpg" alt="">
       </div>
-      <div class="gallery_two">
+      <div class="blogBox gallery_two">
         <img src="img\image_part_007.jpg" alt="">
         <img src="img\image_part_008.jpg" alt="">
         <img src="img\image_part_009.jpg" alt="">
@@ -243,9 +244,18 @@
         <img src="img\image_part_011.jpg" alt="">
         <img src="img\image_part_012.jpg" alt="">
       </div>
-      <div class="gallery_button">
-        <a class="button" href="">LOAD MORE</a>
+      <div class="blogBox gallery_two" style="display: none;">
+        <img src="img\architecture_tower_building_183385_1024x768.jpg" alt="">
+        <img src="img\boat_coast_sand_183393_1024x768.jpg" alt="">
+        <img src="img\palm_branches_leaves_183409_1024x768.jpg" alt="">
+        <img src="img\car_retro_road_183413_1024x768.jpg" alt="">
+        <img src="img\macaw_parrot_bird_183410_1024x768.jpg" alt="">
+        <img src="img\palm_branches_leaves_183409_1024x768.jpg" alt="">
       </div>
+      <div class="gallery_button" id="loadMore">
+        <a class="button" href="#">LOAD MORE</a>
+      </div>
+      <script src="load_more.js"></script>
     </div>
   </section>
   <section class="feedback_background">
@@ -348,5 +358,6 @@
     </div>
   </footer>
   <script src="slider.js"></script>
+  </div>
 </body>
 </html>
