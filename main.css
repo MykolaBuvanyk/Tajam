@@ -538,3 +538,7 @@ footer{
 .footer_offer, .footer_studio, .footer_social{
   margin-right: 60px;
 }
+.f-nav{ 
+  z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;
+  background: rgba(0,0,0,0.7);
+}
